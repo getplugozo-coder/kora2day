@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>GoalLive PRO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="مشاهدة مباريات اليوم بث مباشر بجودة عالية">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <h1>⚽ GoalLive PRO</h1>
+</header>
+
+<div class="container">
+  <div class="match">
+    <h3>Real Madrid vs Barcelona</h3>
+    <p>La Liga • 21:00</p>
+    <button class="watch" data-stream="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8">▶ مشاهدة</button>
+  </div>
+</div>
+
+<div id="adOverlay" class="overlay hidden">
+  <div class="adBox">
+    <h2>📢 إعلان</h2>
+    <div class="banner">
+<script>
+(function(geot){
+var d=document,s=d.createElement('script'),l=d.scripts[d.scripts.length-1];
+s.src="//immense-user.com/b-XzVHsNd.GEl/0HYpWScI/Pe/mW9quyZ-UWlZkQPyTLYT3nNPzuIp0KMBz/cotJNgj/cj3tMuj/Qm0nMjQW";
+s.async=true;s.referrerPolicy='no-referrer-when-downgrade';
+l.parentNode.insertBefore(s,l);
+})({})
+</script>
+    </div>
+    <button id="closeAd" disabled>إغلاق الإعلان (10)</button>
+  </div>
+</div>
+
+<div class="container">
+  <video id="player" controls autoplay></video>
+</div>
+
+<footer>
+<a href="privacy.html">Privacy</a> • 
+<a href="dmca.html">DMCA</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
